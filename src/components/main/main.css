@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  padding: 20px;
+  margin-top: 50px;
+}
+.main .one {
+  flex: 1;
+}
+.main .oneoand {
+  margin-right: 70px;
+}
+.main .oneoand .picone {
+  height: 490px;
+  border-radius: 20px;
+}/*# sourceMappingURL=main.css.map */

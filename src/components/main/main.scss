@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    padding: 20px;
+    //background-color: lightblue;
+    margin-top: 50px;
+
+    .one {
+        flex: 1;
+    }
+
+    .oneoand {
+        margin-right: 70px;
+
+        .picone {
+            height: 490px;
+            border-radius: 20px;
+        }
+    }
+}
