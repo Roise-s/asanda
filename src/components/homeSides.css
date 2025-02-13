@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.homeright {
+  background-color: lightblue;
+  height: 100vh;
+  width: 240px;
+  color: white;
+  background-color: rgb(28, 28, 28);
+}
+.homeright .nameBtn {
+  height: 80px;
+  width: 240px;
+  margin: 15px 0;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  background: transparent;
+  border: none;
+  font-size: 32px;
+}
+.homeright .nameBtn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.homeright .nameBtn:active {
+  opacity: 0.5;
+}
+.homeright .homeSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 420px;
+}
+.homeright .homeSection .logs {
+  border: none;
+  color: white;
+  background: transparent;
+  height: 50px;
+  margin: 10px 0;
+}
+.homeright .homeSection .logs:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.homeright .homeSection .logs:active {
+  opacity: 5;
+}
+
+.homeleft {
+  background-color: rgb(22, 22, 22);
+  height: 100vh;
+  width: 1300px;
+}
+.homeleft .mainName {
+  color: white;
+  margin-left: 65px;
+  margin-top: 45px;
+  margin-bottom: 0;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+.homeleft .mainName .innerMain {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: line-through;
+}
+.homeleft .maintext {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #7e7e7e;
+}/*# sourceMappingURL=homeSides.css.map */
