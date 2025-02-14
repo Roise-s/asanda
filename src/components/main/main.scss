@@ -63,6 +63,9 @@
     }
 
     .oneoand {
+        @media (max-width: 850px) {
+            display: none;
+        }
         margin-right: 70px;
 
         .picone {

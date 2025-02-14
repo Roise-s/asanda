@@ -9,6 +9,16 @@
   padding-left: 120px;
   border: 0.5px solid rgba(255, 255, 255, 0.773);
 }
+@media (max-width: 700px) {
+  .fooot {
+    margin-top: 800px;
+  }
+}
+@media (max-width: 600px) {
+  .fooot {
+    margin-top: 900px;
+  }
+}
 .fooot .coryrights:hover {
   opacity: 0.5;
   cursor: pointer;

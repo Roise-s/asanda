@@ -1,4 +1,10 @@
 .fooot {
+    @media (max-width: 700px) {
+        margin-top: 800px;
+    }
+    @media (max-width: 600px) {
+        margin-top: 900px;
+    }
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -5,6 +5,9 @@ body {
 }
 
 .homeright {
+    @media (max-width: 1200px) {
+        display: none;
+    }
     position: fixed;
     height: 100vh;
     width: 240px;
@@ -64,12 +67,18 @@ body {
 }
 
 .homeleft {
+    @media (max-width: 1200px) {
+        margin-left: 0;
+    }
     background-color: rgb(22, 22, 22);
     height: 100vh;
     width: 1300px;
     margin-left: 230px;
 
     .mainName {
+        @media (max-width: 500px) {
+            font-size: 50px;
+        }
         color: white;
         margin-left: 65px;
         margin-top: 45px;
@@ -91,6 +100,9 @@ body {
     }
 
     .maintext {
+        @media (max-width: 500px) {
+            font-size: 15px;
+        }
         font-family: "Playfair Display", serif;
         font-optical-sizing: auto;
         font-weight: 400;

@@ -57,6 +57,11 @@
 .main .oneoand {
   margin-right: 70px;
 }
+@media (max-width: 850px) {
+  .main .oneoand {
+    display: none;
+  }
+}
 .main .oneoand .picone {
   height: 490px;
   border-radius: 20px;

@@ -15,6 +15,10 @@
         flex: 1;
 
         .titlebuy {
+            @media (max-width: 1300px) {
+                font-size: 20px;
+                margin-top: 30px;
+            }
             margin-top: 70px;
             font-size: 25px;
             text-align: center;
@@ -26,11 +30,17 @@
         }
 
         .mainSet {
+            @media (max-width: 1250px) {
+                margin-top: 15px;
+            }
             margin-top: 25px;
             color: rgba(255, 255, 255, 0.826);
         }
 
         .getYours {
+            @media (max-width: 1250px) {
+                margin-top: 20px;
+            }
             display: flex;
             justify-content: center;
             align-items: center;
@@ -61,6 +71,9 @@
     }
 
     .buyVideo {
+        @media (max-width: 1000px) {
+            display: none;
+        }
         
         .videosss {
             height: 450px;

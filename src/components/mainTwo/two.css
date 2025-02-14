@@ -23,9 +23,20 @@
   font-weight: 600;
   font-style: normal;
 }
+@media (max-width: 1300px) {
+  .mainTwo .buyBook .titlebuy {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
 .mainTwo .buyBook .mainSet {
   margin-top: 25px;
   color: rgba(255, 255, 255, 0.826);
+}
+@media (max-width: 1250px) {
+  .mainTwo .buyBook .mainSet {
+    margin-top: 15px;
+  }
 }
 .mainTwo .buyBook .getYours {
   display: flex;
@@ -39,6 +50,11 @@
   margin-left: 40px;
   border-radius: 10px;
 }
+@media (max-width: 1250px) {
+  .mainTwo .buyBook .getYours {
+    margin-top: 20px;
+  }
+}
 .mainTwo .buyBook .getYours .giBuy {
   margin-right: 12px;
 }
@@ -51,6 +67,11 @@
 .mainTwo .buyBook .getYours:active {
   color: white;
   opacity: 0.8;
+}
+@media (max-width: 1000px) {
+  .mainTwo .buyVideo {
+    display: none;
+  }
 }
 .mainTwo .buyVideo .videosss {
   height: 450px;
