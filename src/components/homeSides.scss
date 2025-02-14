@@ -5,11 +5,11 @@ body {
 }
 
 .homeright {
-    background-color: lightblue;
+    position: fixed;
     height: 100vh;
     width: 240px;
     color: white;
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(21, 21, 21);
 
     .nameBtn {
         height: 80px;
@@ -18,7 +18,7 @@ body {
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
-        color: white;
+        color: rgba(255, 255, 255, 0.79);
         background: transparent;
         border: none;
         font-size: 32px;
@@ -39,11 +39,17 @@ body {
         margin-top: 420px;
 
         .logs {
+            display: flex;
+            justify-content: center;
             border: none;
-            color: white;
+            color: rgba(255, 255, 255, 0.668);
             background: transparent;
             height: 50px;
             margin: 10px 0;
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
 
             &:hover {
                 opacity: 0.8;
@@ -61,6 +67,7 @@ body {
     background-color: rgb(22, 22, 22);
     height: 100vh;
     width: 1300px;
+    margin-left: 230px;
 
     .mainName {
         color: white;
@@ -78,6 +85,7 @@ body {
             font-optical-sizing: auto;
             font-weight: 400;
             font-style: normal;
+            color: rgba(255, 255, 255, 0.825);
             text-decoration: line-through;
         }
     }

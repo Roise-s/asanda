@@ -2,10 +2,52 @@
     display: flex;
     padding: 20px;
     //background-color: lightblue;
-    margin-top: 50px;
+    margin-top: 100px;
 
     .one {
         flex: 1;
+        padding: 20px;
+        margin: 0 50px;
+        border-radius: 20px;
+        border-bottom: none;
+        border-top: none;
+        text-align: center;
+
+        .join {
+            font-size: 40px;
+            color: white;
+            font-weight: 600;
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        .btnsdiv {
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            justify-content: center;
+            align-items: center;
+
+            .linkBtns {
+                height: 55px;
+                width: 300px;
+                background-color: rgba(255, 255, 255, 0.908);
+                display: flex;
+                font-size: 20px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 15px;
+
+                .Bilogo {
+                    height: 50px;
+                    margin-right: 6px;
+                }
+            }
+        }
     }
 
     .oneoand {
@@ -14,6 +56,7 @@
         .picone {
             height: 490px;
             border-radius: 20px;
+            opacity: 0.8;
         }
     }
 }
