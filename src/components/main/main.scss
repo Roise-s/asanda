@@ -41,6 +41,18 @@
                 padding: 20px;
                 margin: 20px 0;
                 border-radius: 15px;
+                transition: all ease-in 0.5s;
+
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.8;
+                    background-color: rgba(158, 129, 255, 0.841);
+                    color: white;
+                }
+
+                &:active {
+                    opacity: 0.5;
+                }
 
                 .Bilogo {
                     height: 50px;

@@ -4,7 +4,9 @@ import './homeSides.css'
 const HomeRight = () => {
   return (
     <div className='homeright'>
-      <button className="nameBtn">Asanda MP</button>
+      <a href="/">
+        <button className="nameBtn">Asanda MP</button>
+      </a>
 
       <div className="homeSection">
         <button className="logs">

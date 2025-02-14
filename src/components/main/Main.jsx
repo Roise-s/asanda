@@ -15,18 +15,30 @@ const Main = () => {
         </p>
 
         <div className="btnsdiv">
-          <button className="linkBtns">
-            <BiLogoTelegram className='Bilogo' /> Telegram
-          </button>
-          <button className="linkBtns">
-            <FaTiktok className='Bilogo' /> TikTok
-          </button>
-          <button className="linkBtns">
-            <IoLogoYoutube className='Bilogo' /> YouTube
-          </button>
-          <button className="linkBtns">
-          <FaInstagram className='Bilogo' /> Instagram
-          </button>
+          <a href="https://t.me/asandatechcommunity" target='_blank'>
+            <button className="linkBtns">
+              <BiLogoTelegram className='Bilogo' /> Telegram
+            </button>
+          </a>
+          
+          <a href="https://www.tiktok.com/@asandatech?_t=8ngtgzqvpcd&_r=1" target='_blank'>
+            <button className="linkBtns">
+              <FaTiktok className='Bilogo' /> TikTok
+            </button>  
+          </a>
+        
+          <a href="https://www.youtube.com/@asanda_tech" target='_blank'>
+            <button className="linkBtns">
+              <IoLogoYoutube className='Bilogo' /> YouTube
+            </button>
+          </a>
+          
+          <a href="https://www.instagram.com/asanda.tech/?next=%2Fthehighwithroise%2F" target='_blank'>
+            <button className="linkBtns">
+            <FaInstagram className='Bilogo' /> Instagram
+            </button>
+          </a>
+          
         </div>
       </div>
       <div className="oneoand">
