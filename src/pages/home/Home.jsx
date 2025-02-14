@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
-import HomeRight from '../../components/Homeright'
-import HomeLeft from '../../components/HomeLeft'
+import HomeRight from '../../components/HomeRight.jsx'
+import HomeLeft from '../../components/HomeLeft.jsx'
 
 const Home = () => {
   return (
