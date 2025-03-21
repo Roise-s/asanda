@@ -16,7 +16,7 @@
 }
 @media (max-width: 600px) {
   .fooot {
-    margin-top: 900px;
+    /*margin-top: 900px;*/
     border: none;
   }
 }
